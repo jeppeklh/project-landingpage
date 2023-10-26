@@ -1,14 +1,18 @@
 /* .page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 } */
 
 .hero {
     background-color: #1F2937;
     margin-top: -8px;
-    margin-left: -8px;
-    width: 100vw;
+    margin-left: -8px; 
+    margin-right: -8px;
+    width: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;   */
 
 }
 
@@ -69,9 +73,19 @@ button {
 }
 
 img {
-    width: auto;
+    width: 80%;
     height: 200px;
-    padding: 20px;
+    padding: 15px;
+}
+
+.monkey {
+    width: auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .middle-text {
@@ -83,6 +97,13 @@ img {
 .images-section {
     display: flex;
     justify-content: space-around;
+
+}
+
+.image-holder {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
 }
 
 .image-text {
