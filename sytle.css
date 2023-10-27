@@ -1,9 +1,7 @@
-/* .page {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
-} */
+.page {
+  display: flex;
+  flex-direction: column;
+}
 
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +13,14 @@
   margin-top: -8px;
   margin-left: -8px;
   margin-right: -8px;
-  width: auto;
-  /* display: flex;
-    flex-direction: column;
-    align-items: stretch;   */
+ 
 }
 
 .header {
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
+
 }
 
 .logo {
@@ -75,7 +71,6 @@ button {
 }
 
 .top-button {
-  
   width: 100px;
   border: none;
 }
@@ -124,25 +119,28 @@ img {
   background-color: #e5e7eb;
   border-radius: 20%;
   border: 1px solid black;
-  margin: 0 auto;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
-  padding-top: 100px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-top: 60px;
+  padding-left: 200px;
+  padding-right: 200px;  
 }
 
 .quote-credit {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  padding: 50px;
-  display: flex;
-  justify-content: flex-end;
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  text-align: end;
   margin-top: -75px;
+  margin-right: 200px;
 }
 
 .bottom {
@@ -163,16 +161,16 @@ img {
 }
 
 .bottom-left {
-    color: white;
-    padding: 5px;
+  color: white;
+  padding: 5px;
 }
 
 .bottom-small-header {
-    margin-bottom: -15px;
+  margin-bottom: -15px;
 }
 
 .bottom-small-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .bottom-button {
@@ -181,14 +179,9 @@ img {
 }
 
 .footer {
-    background-color: #1f2937;
-    color: #f9faf8;
-    text-align: center;
-    padding: 5px;
-    margin: -8px;
-    
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 5px;
+  margin: -8px;
 }
-
-
-
-
