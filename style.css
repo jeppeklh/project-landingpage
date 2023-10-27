@@ -13,7 +13,7 @@
   margin-top: -8px;
   margin-left: -8px;
   margin-right: -8px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
  
 }
 
@@ -72,8 +72,9 @@ button {
 }
 
 .top-button {
-  width: 100px;
+  width: auto;
   border: none;
+  padding: 5px 10px;
 }
 
 img {
@@ -81,6 +82,14 @@ img {
   height: 200px;
   padding: 15px;
   border-radius: 75%;
+}
+
+.eiffel, .smart {
+  width: 72%;
+}
+
+.strength {
+  width: 55%;
 }
 
 .monkey {
@@ -103,7 +112,7 @@ img {
 
 .images-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly ;
 }
 
 .image-holder {
@@ -140,8 +149,8 @@ img {
   padding-right: 100px;
   padding-bottom: 50px;
   text-align: end;
-  margin-top: -75px;
-  margin-right: 200px;
+  margin-top: -50px;
+  margin-right: 100px;
 }
 
 .bottom {
